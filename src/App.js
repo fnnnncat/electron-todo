@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import 'style-loader!./App.css';
 import  AppListBox from './appListBox';
 var myStyle = {
     fontSize: 100,
