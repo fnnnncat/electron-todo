@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import 'style-loader!./App.css';
 import  AppListBox from './appListBox';
+import Header from './Header';
 var myStyle = {
     fontSize: 100,
     color: '#FF0000'
@@ -10,6 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Header/>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to sdsdsReassct</h1>
