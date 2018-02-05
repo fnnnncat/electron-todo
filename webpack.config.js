@@ -31,9 +31,9 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.json', '.scss', '.less','css', 'jsonp'],
     },
-
+    devtool: 'inline-source-map',
     devServer: {
-        contentBase: path.join(__dirname, "build"),
+        contentBase: './build',
         compress: true,
         inline: true,
         port: 9000

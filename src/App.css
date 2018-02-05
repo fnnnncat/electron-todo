@@ -8,18 +8,19 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: rgb(5, 5, 5);
+  height: 40px;
+  padding-left: 30px;
   color: white;
+  text-align: left;
+  background: linear-gradient(to left, rgba(14, 13, 13, 0), rgb(54, 50, 50));;
 }
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+.App-header .todo-time{
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 40px;
 }
 
 @keyframes App-logo-spin {
