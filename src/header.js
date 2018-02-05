@@ -3,17 +3,25 @@ import 'style-loader!./Header.css';
 class Header extends Component {
     render(){
         return (
-            <div className="header">
+            <header className="header">
                 <div className="header-tit">
-                  清单
+                  TODO
                 </div>
                 <div className="header-type">
-                  未完成
+                <span></span>
+                 <span> 全部</span>
                 </div>
-                <div>
-                  我的
+                <div className="header-type">
+                <span></span>
+                 <span> 未完成</span>
                 </div>
-            </div>
+                <div className="header-type">
+                <span></span>
+                 <span> 已完成</span>
+                </div>
+                <div className="header-user">
+                </div>
+            </header>
         )
     }
 }

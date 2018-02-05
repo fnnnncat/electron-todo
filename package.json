@@ -33,6 +33,8 @@
   "scripts": {
     "start": "webpack-dev-server --devtool eval --progress --colors --hot --inline --content-base dev",
     "build": "webpack --progress --profile --colors --config webpack.config.js",
-    "dev": "webpack-dev-server --config webpack.config.js"
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "watch": "webpack --watch",
+    "startc": "webpack-dev-server --open"
   }
 }

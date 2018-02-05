@@ -25,7 +25,7 @@ class AppListBox extends Component{
 	render(){
       var taskList=this.state.list.map(appItem=>
 
-       <AppItem id={appItem.id} removeItem={this.deleteItems.bind(this)} data={appItem}/>
+       <AppItem id={appItem.id} key={appItem.id} removeItem={this.deleteItems.bind(this)} data={appItem}/>
       
        )
 	return(
